@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "https://data.sportstarta.com/",
+  "dataset-site-url": "http://data.sportstarta.com/",
   "title": "SportStarta Open Activities",
   "description": "Session data from the SportStarta.com site",
   "publisher-name": "SportStarta.com",
@@ -13,7 +13,7 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "SportStarta.com Activities",
-  "attribution-url": "https://data.sportstarta.com/",
+  "attribution-url": "http://data.sportstarta.com/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
