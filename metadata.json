@@ -1,21 +1,21 @@
 {
-  "dataset-site-url": "https://sportstarta.github.io/",
+  "dataset-site-url": "https://data.sportstarta.com/",
   "title": "SportStarta Open Activities",
   "description": "Session data from the SportStarta.com site",
   "publisher-name": "SportStarta.com",
   "publisher-url": "https://www.sportstarta.com",
   "keyword-1": "Sports",
   "keyword-2": "Games",
-  "data-url": "http://api.sportstarta.com/openactive/rpde",
-  "created": "2014-07-20",
+  "data-url": "http://www.client1.sport.sportstarta.com/api/games/get_active_single_game",
+  "created": "2017-05-30",
   "documentation-url": "https://github.com/SportStarta/opendata",
   "rpde-version": "0.2.3",
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "SportStarta.com Activities",
-  "attribution-url": "https://sportstarta.github.io/",
+  "attribution-url": "https://data.sportstarta.com/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": true
+  "publish": false
 }
