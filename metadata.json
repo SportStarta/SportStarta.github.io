@@ -6,7 +6,7 @@
   "publisher-url": "https://www.sportstarta.com",
   "keyword-1": "Sports",
   "keyword-2": "Games",
-  "data-url": "http://www.client1.sport.sportstarta.com/api/games/get_active_single_game",
+  "data-url": "http://www.devapi.lewishamparklife.co.uk/api/games/get_active_single_game",
   "created": "2017-05-30",
   "documentation-url": "https://github.com/SportStarta/opendata",
   "rpde-version": "0.2.3",
