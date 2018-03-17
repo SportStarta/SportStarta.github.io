@@ -17,5 +17,5 @@
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": false
+  "publish": true
 }
