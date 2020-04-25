@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "SportStarta Open Activities",
-      "id": "https://sportstarta.github.io/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "https://sportstarta.github.io/",
       "url": "https://sportstarta.github.io/",
-      "description" : "Session data from the SportStarta.com site; published using OpenActive RPDE v1.0.",
+      "name": "SportStarta Open Activities",
+      "description": "Session data from the SportStarta.com site; published using OpenActive RPDE v1.0.",
       "keywords":[
-         "Sports",
-         "Games",
-         "OpenActive"
+          "Sports",
+          "Games",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=1.0",
-        "contentUrl" : "http://www.devapi.lewishamparklife.co.uk/api/games/get_active_single_game"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "http://www.devapi.lewishamparklife.co.uk/api/games/get_active_single_game"
+        }
+      ],
+      "discussionUrl": "https://github.com/SportStarta/opendata/issues",
+      "documentation": "https://github.com/SportStarta/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "SportStarta.com",
-         "url": "https://www.sportstarta.com",
-         "logo": "https://sportstarta.github.io/images/logo.png"
+        "@type": "Organization",
+        "name": "SportStarta.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sportstarta.github.io/images/logo.png"
+        },
+        "url": "https://www.sportstarta.com"
       },
-      "datePublished" : "2017-05-30T00:00:00.000Z"
+      "datePublished": "2017-05-30T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "https://sportstarta.github.io/images/bg.jpg"
+      }
     }
     </script>
   </head>
